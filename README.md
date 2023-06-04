@@ -3,7 +3,7 @@ Playing with [Maven versioning extension](https://github.com/qoomon/maven-git-ve
 The artifact version is derived from git (branch or tag), the version in pom.xml
 is ignored.
 
-To get the current version run:
+To get the current version run:  
 `mvn help:evaluate -Dexpression=project.version -Dorg.slf4j.simpleLogger.log.me.qoomon.maven.gitversioning=debug`
 
 ##### How it works
