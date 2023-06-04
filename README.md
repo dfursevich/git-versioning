@@ -12,3 +12,7 @@ To get the current version run:
 e.g. tag v0.0.1 -> 0.0.2-SNAPSHOT
 2. If you are on tag the version will be equal to this tag e.g. tag v0.0.1 -> 0.0.1
 
+##### Release example
+1. git checkout -b release_0.0
+2. git tag v0.0.1
+3. mvn clean deploy
